@@ -12,8 +12,8 @@ final class FrameExtractorTests: XCTestCase {
 
   func testExtractFrameNoPlayer() async {
     let player = AVPlayer()
-    let image = await extractor.extractFrame(from: player, seekTime: .zero)
-    XCTAssertNil(image)
+    let data = await extractor.extractFrame(from: player, seekTime: .zero)
+    XCTAssertNil(data)
   }
 
   func testExtractFrameWithPlayer() async throws {
@@ -27,7 +27,8 @@ final class FrameExtractorTests: XCTestCase {
     }
     await fulfillment(of: [expectation], timeout: 1.0)
 
-    let image = await extractor.extractFrame(from: player, seekTime: .zero)
-    XCTAssertNotNil(image)
+    let data = await extractor.extractFrame(from: player, seekTime: .zero)
+    XCTAssertNotNil(data)
+    XCTAssertTrue(data!.count > 0)
   }
 }

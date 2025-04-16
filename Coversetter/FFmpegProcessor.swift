@@ -10,14 +10,14 @@ class FFmpegProcessor {
 
   func setCoverImage(videoURL: URL, imageURL: URL, outputURL: URL) async -> Result {
     let args = [
-      "--input", videoURL.path,
-      "--input", imageURL.path,
-      "--map", "0",
-      "--map", "1",
-      "--codec", "copy",
-      "--disposition:v:1", "attached_pic",
+      "-i", videoURL.path,
+      "-i", imageURL.path,
+      "-map", "1",
+      "-map", "0",
+      "-codec", "copy",
+      "-disposition:0", "attached_pic",
       outputURL.path,
-      "--yes"
+      "-y"
     ]
     return executor.execute(ffmpegPath, arguments: args)
   }
