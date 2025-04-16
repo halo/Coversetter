@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C216A0E42DB00BC200A8E525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C216A0CA2DB00BC000A8E525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C216A0D12DB00BC000A8E525;
+			remoteInfo = Coversetter;
+		};
+		C216A0EE2DB00BC200A8E525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C216A0CA2DB00BC000A8E525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C216A0D12DB00BC000A8E525;
+			remoteInfo = Coversetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C216A0D22DB00BC000A8E525 /* Coversetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coversetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C216A0E32DB00BC200A8E525 /* CoversetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoversetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C216A0ED2DB00BC200A8E525 /* CoversetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoversetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C216A1282DB02AC800A8E525 /* Exceptions for "CoversetterTests" folder in "CoversetterUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				test.mp4,
+			);
+			target = C216A0EC2DB00BC200A8E525 /* CoversetterUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C216A0D42DB00BC000A8E525 /* Coversetter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Coversetter;
+			sourceTree = "<group>";
+		};
+		C216A0E62DB00BC200A8E525 /* CoversetterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C216A1282DB02AC800A8E525 /* Exceptions for "CoversetterTests" folder in "CoversetterUITests" target */,
+			);
+			path = CoversetterTests;
+			sourceTree = "<group>";
+		};
+		C216A0F02DB00BC200A8E525 /* CoversetterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoversetterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C216A0CF2DB00BC000A8E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0E02DB00BC200A8E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0EA2DB00BC200A8E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C216A0C92DB00BC000A8E525 = {
+			isa = PBXGroup;
+			children = (
+				C216A0D42DB00BC000A8E525 /* Coversetter */,
+				C216A0E62DB00BC200A8E525 /* CoversetterTests */,
+				C216A0F02DB00BC200A8E525 /* CoversetterUITests */,
+				C216A0D32DB00BC000A8E525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C216A0D32DB00BC000A8E525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C216A0D22DB00BC000A8E525 /* Coversetter.app */,
+				C216A0E32DB00BC200A8E525 /* CoversetterTests.xctest */,
+				C216A0ED2DB00BC200A8E525 /* CoversetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C216A0D12DB00BC000A8E525 /* Coversetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C216A0F72DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "Coversetter" */;
+			buildPhases = (
+				C216A0CE2DB00BC000A8E525 /* Sources */,
+				C216A0CF2DB00BC000A8E525 /* Frameworks */,
+				C216A0D02DB00BC000A8E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C216A0D42DB00BC000A8E525 /* Coversetter */,
+			);
+			name = Coversetter;
+			packageProductDependencies = (
+			);
+			productName = Coversetter;
+			productReference = C216A0D22DB00BC000A8E525 /* Coversetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C216A0E22DB00BC200A8E525 /* CoversetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C216A0FA2DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "CoversetterTests" */;
+			buildPhases = (
+				C216A0DF2DB00BC200A8E525 /* Sources */,
+				C216A0E02DB00BC200A8E525 /* Frameworks */,
+				C216A0E12DB00BC200A8E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C216A0E52DB00BC200A8E525 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C216A0E62DB00BC200A8E525 /* CoversetterTests */,
+			);
+			name = CoversetterTests;
+			packageProductDependencies = (
+			);
+			productName = CoversetterTests;
+			productReference = C216A0E32DB00BC200A8E525 /* CoversetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C216A0EC2DB00BC200A8E525 /* CoversetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C216A0FD2DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "CoversetterUITests" */;
+			buildPhases = (
+				C216A0E92DB00BC200A8E525 /* Sources */,
+				C216A0EA2DB00BC200A8E525 /* Frameworks */,
+				C216A0EB2DB00BC200A8E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C216A0EF2DB00BC200A8E525 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C216A0F02DB00BC200A8E525 /* CoversetterUITests */,
+			);
+			name = CoversetterUITests;
+			packageProductDependencies = (
+			);
+			productName = CoversetterUITests;
+			productReference = C216A0ED2DB00BC200A8E525 /* CoversetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C216A0CA2DB00BC000A8E525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C216A0D12DB00BC000A8E525 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C216A0E22DB00BC200A8E525 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C216A0D12DB00BC000A8E525;
+					};
+					C216A0EC2DB00BC200A8E525 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C216A0D12DB00BC000A8E525;
+					};
+				};
+			};
+			buildConfigurationList = C216A0CD2DB00BC000A8E525 /* Build configuration list for PBXProject "Coversetter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C216A0C92DB00BC000A8E525;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C216A0D32DB00BC000A8E525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C216A0D12DB00BC000A8E525 /* Coversetter */,
+				C216A0E22DB00BC200A8E525 /* CoversetterTests */,
+				C216A0EC2DB00BC200A8E525 /* CoversetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C216A0D02DB00BC000A8E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0E12DB00BC200A8E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0EB2DB00BC200A8E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C216A0CE2DB00BC000A8E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0DF2DB00BC200A8E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C216A0E92DB00BC200A8E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C216A0E52DB00BC200A8E525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C216A0D12DB00BC000A8E525 /* Coversetter */;
+			targetProxy = C216A0E42DB00BC200A8E525 /* PBXContainerItemProxy */;
+		};
+		C216A0EF2DB00BC200A8E525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C216A0D12DB00BC000A8E525 /* Coversetter */;
+			targetProxy = C216A0EE2DB00BC200A8E525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C216A0F52DB00BC200A8E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C216A0F62DB00BC200A8E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C216A0F82DB00BC200A8E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Coversetter/Coversetter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coversetter/Preview Content\"";
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.Coversetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C216A0F92DB00BC200A8E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Coversetter/Coversetter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coversetter/Preview Content\"";
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.Coversetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C216A0FB2DB00BC200A8E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.CoversetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coversetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coversetter";
+			};
+			name = Debug;
+		};
+		C216A0FC2DB00BC200A8E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.CoversetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coversetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coversetter";
+			};
+			name = Release;
+		};
+		C216A0FE2DB00BC200A8E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.CoversetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Coversetter;
+			};
+			name = Debug;
+		};
+		C216A0FF2DB00BC200A8E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9J4QR64LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.halo.CoversetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Coversetter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C216A0CD2DB00BC000A8E525 /* Build configuration list for PBXProject "Coversetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C216A0F52DB00BC200A8E525 /* Debug */,
+				C216A0F62DB00BC200A8E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C216A0F72DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "Coversetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C216A0F82DB00BC200A8E525 /* Debug */,
+				C216A0F92DB00BC200A8E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C216A0FA2DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "CoversetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C216A0FB2DB00BC200A8E525 /* Debug */,
+				C216A0FC2DB00BC200A8E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C216A0FD2DB00BC200A8E525 /* Build configuration list for PBXNativeTarget "CoversetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C216A0FE2DB00BC200A8E525 /* Debug */,
+				C216A0FF2DB00BC200A8E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C216A0CA2DB00BC000A8E525 /* Project object */;
+}
