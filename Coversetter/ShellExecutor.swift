@@ -13,6 +13,7 @@ class ShellExecutor {
     process.standardError = errorPipe
 
     do {
+      debugPrint("Running commant \(command) \(arguments.joined(separator: " "))")
       try process.run()
     } catch {
       return .failure(code: "launch_failed", attributes: ["message": "Failed to launch \(command): \(error.localizedDescription)"])

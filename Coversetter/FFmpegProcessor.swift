@@ -10,6 +10,8 @@ class FFmpegProcessor {
 
   func setCoverImage(videoURL: URL, imageURL: URL, outputURL: URL) async -> Result {
     let args = [
+      "-loglevel", "warning",
+      "-hide_banner",
       "-i", videoURL.path,
       "-i", imageURL.path,
       "-map", "1",
@@ -18,6 +20,18 @@ class FFmpegProcessor {
       "-disposition:0", "attached_pic",
       outputURL.path,
       "-y"
+    ]
+    return executor.execute(ffmpegPath, arguments: args)
+  }
+
+  func extractCoverImage(videoURL: URL, atTime: Double, outputURL: URL) async -> Result {
+    let args = [
+//      "-loglevel", "warning",
+      "-hide_banner",
+      "-i", videoURL.path,
+      "-ss", "\(atTime)",
+      "-vframes", "1",
+      outputURL.path
     ]
     return executor.execute(ffmpegPath, arguments: args)
   }
