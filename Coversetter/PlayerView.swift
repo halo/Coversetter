@@ -25,8 +25,23 @@ struct PlayerView: View {
             .foregroundColor(.gray)
         }
       }
+      if coverManager.isProcessing {
+        VStack {
+          ProgressView()
+            .progressViewStyle(.circular)
+            .controlSize(.large)
+          Text(coverManager.statusMessage)
+            .foregroundColor(.white)
+            .font(.system(size: 14))
+            .padding(.top, 8)
+        }
+        .padding()
+        .background(.ultraThinMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
+      }
     }
     .onDrop(of: [.fileURL], isTargeted: $isDraggingOver) { providers in
+      coverManager.isProcessing = false
       guard let provider = providers.first else { return false }
       provider.loadItem(forTypeIdentifier: UTType.fileURL.identifier) { item, _ in
         guard let data = item as? Data,
