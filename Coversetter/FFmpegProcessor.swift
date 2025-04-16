@@ -26,11 +26,12 @@ class FFmpegProcessor {
 
   func extractCoverImage(videoURL: URL, atTime: Double, outputURL: URL) async -> Result {
     let args = [
-//      "-loglevel", "warning",
+      "-loglevel", "warning",
       "-hide_banner",
+      "-ss", "\(atTime)", // Needs to come before -i for speed! See https://trac.ffmpeg.org/wiki/Seeking
       "-i", videoURL.path,
-      "-ss", "\(atTime)",
       "-vframes", "1",
+      "-threads", "1", // Probably faster
       outputURL.path
     ]
     return executor.execute(ffmpegPath, arguments: args)
