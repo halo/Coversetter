@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C216A1532DB1784700A8E525 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216A1522DB1784700A8E525 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C216A0E42DB00BC200A8E525 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C216A0D22DB00BC000A8E525 /* Coversetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coversetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C216A0E32DB00BC200A8E525 /* CoversetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoversetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C216A0ED2DB00BC200A8E525 /* CoversetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoversetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C216A1522DB1784700A8E525 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C216A1532DB1784700A8E525 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				C216A0D42DB00BC000A8E525 /* Coversetter */,
 				C216A0E62DB00BC200A8E525 /* CoversetterTests */,
 				C216A0F02DB00BC200A8E525 /* CoversetterUITests */,
+				C216A1512DB1784700A8E525 /* Frameworks */,
 				C216A0D32DB00BC000A8E525 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +110,14 @@
 				C216A0ED2DB00BC200A8E525 /* CoversetterUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C216A1512DB1784700A8E525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C216A1522DB1784700A8E525 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
